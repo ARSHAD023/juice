@@ -1,0 +1,333 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: #edf3f5;
+    background: url("images/Fruit 01.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: fixed;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 25px 10px;
+}
+
+/* custom hamburger menu  */
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2822, 58, 15, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-light .navbar-toggler {
+    color: #ffffff00;
+    border: 2px solid;
+    border-color: rgb(22, 58, 15);
+    margin: 25px;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    text-align: center;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 50px;
+    color: #163a0f;
+}
+
+.logo {
+    display: none;
+}
+
+.navbar-expand-lg .navbar-collapse {
+
+    justify-content: center;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    background-color: #0f3a13;
+    color: white;
+}
+
+
+
+li {
+    float: left;
+    list-style: none;
+    font-size: 20px;
+    padding: 10px;
+
+}
+
+a.nav-link {
+    text-decoration: none;
+    color: #163a0f;
+    padding: 0 50px;
+    cursor: pointer;
+    border: 2px solid #0f3a13;
+
+}
+
+
+.container {
+    background: rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 30px rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(25px);
+    color: rgb(58, 57, 57);
+    border-radius: 20px;
+
+}
+
+
+.container img {
+
+    width: 14rem;
+}
+
+section {
+    padding: 5% 10%;
+
+}
+
+.img-atc {
+    height: 320px;
+    border-radius: 50%;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+p {
+    font-size: 15px;
+    line-height: 2;
+    font-weight: 400;
+    color: #646464;
+    padding: 5% 0;
+}
+
+h1 {
+    font-weight: bold;
+    color: rgb(85, 46, 46);
+    /* width: 150%; */
+    /* position: relative; */
+    /* display: inline; */
+}
+
+.btn {
+    border-radius: 5px;
+    border: 2px solid;
+    width: 150px;
+    height: 3.5rem;
+    background-color: #f24e47;
+
+}
+
+.btn-2 {
+    background-color: #0f3a13;
+
+}
+
+
+/* footer secton  */
+
+
+footer p {
+    margin: 0;
+    color: rgb(0, 0, 0);
+
+}
+
+footer {
+    background-color: #d0ffbb;
+    width: 100%;
+    position: relative;
+    /* bottom: 0; */
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+}
+
+
+
+.icons {
+    font-size: 20px;
+    color: #0f3a13;
+    padding: 0 5px;
+
+}
+
+.icon-media p {
+    color: #0f3a13;
+    margin: 0;
+    padding: 10px 15px;
+
+
+}
+
+.icon-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column;  */
+}
+
+
+/* nutrition page  */
+
+.parent-box {
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    padding: 5% 12%;
+    background: rgba(0, 0, 0, 0.3);
+    /* background-color: rgba(255, 255, 255, 0.4); */
+    box-shadow: 0 4px 30px rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    border-radius: 20px;
+    margin: 0 0 5% 0;
+
+}
+
+.parent-box p {
+    color: rgb(71, 52, 15);
+}
+
+.image {
+    /* padding-left: 20px; */
+
+}
+
+.parent-1,
+.parent-2 {
+    /* background-color: #edf3f5; */
+    padding: 3% 5%;
+    border-radius: 20px;
+    margin-right: 5%;
+}
+
+#box-color p {
+    /* background-color: rgba(28, 92, 36, 0.89); */
+    color: #163a0f;
+}
+
+/* testimonial */
+
+.testimonial-container {
+    padding: 7% 0 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+
+}
+
+.test-card {
+    width: 30%;
+    padding: 25px;
+    background-color: #f24e47;
+    background: rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 30px rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(15px);
+    color: rgb(58, 57, 57);
+    border-radius: 20px;
+
+
+}
+
+.test-card p {
+    color: rgb(255, 255, 255);
+    padding: 0px 10px;
+    margin: 0;
+
+}
+
+.test-card h3 {
+    padding: 8px 10px 0;
+}
+
+.representative-img {
+    height: 60px;
+
+}
+
+
+div.pata-nahi {
+    margin: 10% 0 0;
+
+}
+
+.pata-nahi h1 {
+    text-align: center;
+    padding: 3% 12%;
+    background: rgba(0, 0, 0, 0.3);
+    box-shadow: 14px 14px 30px rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(15px);
+    color: rgb(58, 23, 23);
+    border-radius: 20px;
+
+}
+
+.rereter span {
+    padding: 0 10px;
+}
+
+@media (max-width: 992px) {
+    .parent-box {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        /* margin: 9%; */
+    }
+
+    section {
+        margin: 0 0 5% 0;
+    }
+
+    .img-atc {
+        height: 200px;
+
+    }
+
+    .image {
+
+        margin-left: auto;
+    }
+
+    .test-card {
+        width: 100%;
+        margin: 5%;
+    }
+
+    h1 {
+        font-size: 40px;
+        margin: 15% 0;
+    }
+
+    #navbarNav {
+        border-radius: 20px;
+    }
+
+    .logo {
+        display: block;
+    }
+
+    .logo-alt {
+        display: none;
+    }
+
+}
