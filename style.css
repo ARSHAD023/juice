@@ -329,5 +329,10 @@ div.pata-nahi {
     .logo-alt {
         display: none;
     }
+    
+   .container img {
+
+    width: 11rem;
+}
 
 }
